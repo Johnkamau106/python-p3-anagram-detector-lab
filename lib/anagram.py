@@ -1,7 +1,7 @@
 class Anagram:
     def __init__(self, word):
         self.word = word.lower()
-
+#
     def match(self, word_list):
         # Normalize the sorted characters of the original word
         sorted_word = sorted(self.word)
